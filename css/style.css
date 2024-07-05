@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generics */
+.container-body{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* header */
+.back-lightblue{
+    background-color: #acd8e6;
+    padding: 15px;
+}
+
+.back-blue{
+    background-color: #00008b;
+    padding: 30px;
+}
+
+.div-header{
+    background-color: #ed82ee;
+    min-height: 200px;
+    width: 500px;
+    border: 3px dashed;
+    }
+    
+.nav-header{
+    background-color: #daa521;
+    justify-content: space-between;
+    padding: 10px;
+    border: 3px dashed;
+}
+
+/* utility */
+    
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+

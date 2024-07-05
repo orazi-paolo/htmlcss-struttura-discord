@@ -76,6 +76,22 @@
     flex-wrap: nowrap;
 }
 
+.down-footer{
+    min-height: 100px;
+    border: 3px dashed;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.side-down-footer{
+    background-color: pink;
+    padding: 5px;
+    border: 3px dashed;
+}
+
 
 /* utility */
     
@@ -109,5 +125,10 @@
     background-color: pink;
     width: calc((100% / 6) * 2);
     border: 3px dashed white;
+}
+.border{
+    margin-top: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
 }
 

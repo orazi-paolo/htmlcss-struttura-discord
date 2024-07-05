@@ -36,6 +36,35 @@
     border: 3px dashed;
 }
 
+/* main */
+.back-white{
+    background-color: white;
+    padding: 15px;
+}
+
+.div-main-start{
+    min-height: 200px;
+    flex-direction: row-reverse;
+    border: 3px dashed;
+}
+
+.back-lightgray{
+    background-color: #d3d3d3;
+    padding: 15px;
+}
+.div-main-center{
+    min-height: 200px;
+    border: 3px dashed;
+}
+
+.div-main-end{
+    min-height: 600px;
+    border: 3px dashed;
+    background-color: greenyellow;
+}
+
+
+
 /* utility */
     
 .container{
@@ -44,5 +73,16 @@
 }
 .d-flex{
     display: flex;
+}
+
+
+.side-40{
+    background-color: pink;
+    min-width: 40%;
+}
+
+.side-60{
+    background-color: #1d90ff;
+    min-width: 60%;
 }
 

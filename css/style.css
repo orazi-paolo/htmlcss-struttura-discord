@@ -63,6 +63,18 @@
     background-color: greenyellow;
 }
 
+/* footer */
+
+.back-black{
+    background-color: black;
+    padding: 15px;
+    padding-top: 5px;
+}
+.top-footer{
+    min-height: 200px;
+    border: 3px dashed;
+    flex-wrap: nowrap;
+}
 
 
 /* utility */
@@ -84,5 +96,18 @@
 .side-60{
     background-color: #1d90ff;
     min-width: 60%;
+}
+.side{
+    min-height: 500px;
+    background-color: #21b2aa;
+    width: calc((100% / 6) * 1);
+    border: 3px dashed white;
+}
+
+.double-side{
+    min-height: 500px;
+    background-color: pink;
+    width: calc((100% / 6) * 2);
+    border: 3px dashed white;
 }
 
